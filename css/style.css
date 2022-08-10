@@ -36,6 +36,10 @@ body{
   background: #000;
 }
 
+section {
+  padding: 5rem 9%;
+}
+
 .header{
   position: fixed;
   top:0; left: 0; right: 0; 
@@ -81,12 +85,23 @@ body{
   display: none;
 }
 
+.home {
+  padding: 0;
+  margin-top: 5rem;
+}
 
-
-
-
-
-
+.home .slide {
+  min-height: 70vh;
+  background-size: cover !important;
+  background-position: center !important;
+  padding: 2rem 9%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 
 
 
