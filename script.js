@@ -1,5 +1,25 @@
 let menu = document.querySelector('#menu-btn');
 let navbar = document.querySelector('.header .navbar');
+let discountBtn = document.querySelector('#discountBtn')
+let infoBtn = document.querySelector('#infoBtn');
+let infoBtn2 = document.querySelector('#infoBtn2');
+let allPricingBtn = document.querySelector('#allPricingBtn');
+
+function click() {
+	alert("You Have Been Gifted a 50% Discount, Your Coupon Code: BossFitness1030. Please Email James, at Jamesthebossfitness@gmail.com or Call 4808853545 to claim Discounted Price!")
+}
+
+function click2() {
+	alert("For More Information, Please Call or Text James: (480) 885-3545")
+}
+
+function click3() {
+	alert("For More Information, Please Call or Text James: (480) 885-3545")
+}
+
+function click4() {
+	alert("For More Information, Please Call or Text James: (480) 885-3545")
+}
 
 menu.onclick = () =>{
     menu.classList.toggle('fa-times');
@@ -66,3 +86,8 @@ var swiper = new Swiper(".blogs-slider", {
         },
     },
 });
+
+discountBtn.addEventListener("click", click)
+infoBtn.addEventListener("click", click2)
+infoBtn2.addEventListener("click", click3)
+allPricingBtn.addEventListener("click", click4)
