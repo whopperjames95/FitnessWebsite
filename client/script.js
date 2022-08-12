@@ -87,6 +87,8 @@ var swiper = new Swiper(".blogs-slider", {
     },
 });
 
+
+
 discountBtn.addEventListener("click", click)
 infoBtn.addEventListener("click", click2)
 infoBtn2.addEventListener("click", click3)
